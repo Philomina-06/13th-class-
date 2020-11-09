@@ -1,0 +1,618 @@
+/* font-family: 'Roboto', sans-serif;  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.Top-header{
+    background-color: #f0f2f4;
+    font-family: 'Roboto', sans-serif;
+}
+.Top-header ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;    
+}
+.Top-header ul li{
+    
+    font-size: 16px; 
+    font-size: 12px; 
+    color: #424242; 
+    font-weight: lighter;
+    
+}
+.Top-header ul li i{
+    padding-right: 10px;    
+}
+.fb{
+    color: #1287bf!important;
+    font-size: 20px;
+    padding-right: 0!important;
+}
+/* menu part start here  */
+.navbar{
+    padding: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #424242;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 38px;
+    transition: .4s all ease-in-out;
+
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #e71a13;
+}
+.navbar-nav {
+    list-style: disc;
+}
+
+.home{
+
+    list-style: none;
+}
+.consultation{
+    list-style: none;
+}
+.btn-danger{
+    color: white;
+    background-color: #de2b24;
+    border-color: #de2b24;
+    font-size: 15px;
+    text-transform: capitalize;
+    list-style: none;
+}
+.btn-danger:hover{
+    background-color: #96110c;
+    border-color: #96110c;
+    color: white;
+    
+}
+/* menu part end here  */
+/* banner part start here  */
+.btn-warning{
+    color: white;
+    background-color: #f8cd53;
+    border-color: #f8cd53;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.btn-warning:hover{
+    background-color: #bd8f13;
+    border-color: #bd8f13;
+    color: white;
+    
+}
+.banner{
+    background-image: url(../images/baner-picture.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner h1{
+    color: #fff;
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+.banner p{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.hg{
+    min-height: 80vh;
+}
+/* banner part end here  */
+
+/* about us section start here  */
+.about-us{
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+.about-us .heading::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 44%;
+    
+    width: 0;
+    height: 3px;
+    background-color: #424242;;
+    transition: .4s all ease-in-out;
+    
+}
+.about-us .heading::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 44%;
+    
+    width: 0;
+    height: 3px;
+    background-color:#424242;;
+    transition: .4s all ease-in-out;
+    
+}
+.about-us :hover .heading::before{
+    width: 30px;
+}
+.about-us :hover .heading::after{
+    width: 30px;
+}
+.about-us h1{
+    text-transform: capitalize;
+    font-size: 45px;
+    color: #424242;
+    font-weight: 800;
+    
+}
+.about-us h5{
+    font-size: 20px;
+    color: #424242;
+    font-weight: 500;
+    padding-bottom: 20px;
+    
+}
+.about-us h3{
+    text-transform: capitalize;
+    font-size: 25px; 
+    color: #424242;
+    font-weight: 600;   
+}
+.about-us p{
+    font-size: 15px;
+    color: #5c5c5c;
+    
+}
+.about-us i{
+    font-size: 45px;
+    margin-bottom: 20px;
+    
+}
+.about-us i .fb{
+    color: #688fca;
+
+}
+.book{
+    color: #de5940;
+    
+}
+.chat{
+    color: #f8cd53;
+    
+}
+
+.hg-2{
+    margin-top: 50px;
+}
+
+/* about us section end here  */
+/* approach section start here  */
+.approach{
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+.approach h1{
+    text-transform: capitalize;
+    font-size: 45px;
+    color: #424242;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.approach h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: #424242;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.approach .heading{
+    padding-bottom: 20px;   
+    
+
+}
+
+.approach .heading::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    width: 0;
+    height: 3px;
+    background-color: #424242;
+    transition: .4s all ease-in-out;
+    
+}
+.approach .heading::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 45%;
+    
+    width: 0;
+    height: 3px;
+    background-color: #424242;
+    transition: .4s all ease-in-out;
+    
+}
+.approach :hover .heading::before{
+    width: 30px;
+}
+.approach :hover .heading::after{
+    width: 30px;
+}
+.img{
+    position: relative;
+}
+.step{
+    position: absolute;
+    top: 25%;
+    right: -28%;
+    background-color: red;
+    transform: translate(-50%);
+    padding: 20px 0;
+    width: 100px;
+    text-align: center;
+    border: 1px solid white;
+    font-family: 'Roboto', sans-serif;
+
+}
+.step h3{
+    margin: 0;
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+.step p{
+    margin: 0;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.bg{
+    background-color: #ffffff;   
+    margin: 30px;
+}
+.content{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 3%;
+    
+}
+.content h4{
+    text-transform: capitalize;
+    font-size: 23px;
+    font-weight: 700;
+    color: #424242;
+
+}
+.content p{
+    color: #5c5c5c;
+    font-weight: 500;
+
+}
+    
+
+.content-align{
+    text-align: right;
+    margin-right: 70px;
+
+}
+.img-align{
+    position: relative;
+
+}
+.step-align{
+    position: absolute;
+    left: 0;
+    top: 25%;
+
+}
+
+/* approach section end here  */
+
+/* work section start here  */
+
+
+
+.work{
+    padding: 100px;
+    background-color: #de2b24;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.work h1{
+    text-transform: capitalize;
+    font-size: 45px;
+    color: #fff;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.work h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.work .heading{
+    padding-bottom: 20px;  
+    margin: 200px 0; 
+    
+
+}
+
+.work .heading::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 44%;
+    width: 0;
+    height: 3px;
+    background-color: #fff;
+    transition: .4s all ease-in-out;
+    
+}
+.work .heading::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 44%;
+    
+    width: 0;
+    height: 3px;
+    background-color: #fff;
+    transition: .4s all ease-in-out;
+    
+}
+.work :hover .heading::before{
+    width: 30px;
+}
+.work :hover .heading::after{
+    width: 30px;
+}
+
+.work-content{
+    background-color: #f35e59;
+    position: relative;
+    
+}
+.work-content p{
+    color: #fff;
+    font-size: 16px;
+    
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.work-content i{
+    color: #f9afac;
+    font-size: 36px;
+    
+}
+.work-content h3{
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.work-con{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+
+/* work section end here  */
+/* contact section start here  */
+.form{
+    
+
+}
+.form i{
+
+    
+}
+.contact{
+    background-color: #1287bf;
+    padding: 100px 0;
+    
+
+}
+.contact h1{
+    color: #fff;
+    font-size: 36px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.contact p{
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+.btn-submit{
+
+}
+.btn-icon{
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 0;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 25px;
+    margin-bottom: 50px;
+
+}
+.card-body{
+   
+}
+.card-body p{
+    color: #828282;
+    font-size: 14px;
+    text-transform: none;
+   
+   
+}
+.form-control{
+    color: #b0b0b0;
+    font-size: 14px;
+    text-transform: capitalize;
+    width: 70%;
+    margin: auto;
+}
+#contact{
+    position: relative;
+}
+.btn-close{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background-color: red;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
+    color: #fff;
+    border: 1px solid #fff;
+    
+
+}
+.before{
+    position: relative;
+}
+.before::before{
+    position: absolute;
+    content: "";
+    top: -29px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 30px 30px 30px;
+    border-color: transparent transparent #fff transparent;
+    
+    z-index: 99;
+    transform: translate(-50%);
+    
+
+}
+/* contact section end here  */
+/* get in touch section start here */
+
+
+.touch{
+    background-color: #2a2a2a;
+}
+.touch h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.touch ul {
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.touch ul li{
+    list-style: none;
+    font-size: 25px;
+    margin-right: 8%;
+
+}
+.touch ul li i{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;    
+    color: #fff;
+    border: 1px solid #515151;
+    text-align: center;
+    
+    transition: .4s all ease-in-out;
+    
+}
+.touch ul li i:hover {
+    border: 1px solid #de2b24;
+}
+.touch p {
+    color: #cecece;
+    font-size: 14px;
+}
+
+.touch .form-group input[type=email] {
+    background-color: #515151;
+    border: none;
+    border-radius: 0;
+    padding: 15px;
+
+}
+
+.form-group input[type=email]::placeholder {
+    color: #afafaf;
+    font-size: 15px;
+}
+.btn{
+    
+}
+.btn-subscribe{
+    border: none;
+    color: #fff;
+    border: 1px solid #515151;
+    border-radius: none;
+    background-color: #2a2a2a;   
+    padding: 8px 25px;
+    transition: .4s all ease-in-out;
+
+}
+.btn-subscribe:hover {
+    background-color: #de2b24;
+    color: #fff;
+    border-color: #de2b24 ;
+}
+/* get in touch section end here */
+/* footer section start here  */
+.footer {
+    background-color: #515151;
+}
+.footer p {
+    color: #cecece;
+    font-size: 14px;
+    padding-top: 2%;
+}
+/* footer section end here  */
